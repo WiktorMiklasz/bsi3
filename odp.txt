@@ -1,0 +1,5 @@
+1. Ostatnie 64 bity w SHA odpowiedzialne są za rozmiar, także limitującym czynnikiem dla długości stringów jest liczba 2^64. 
+Długość stringu zrzutowanego na liczbę binarną musi być mniejsza niż 2^64, co jest całkiem nietrudne do wyegzekwowania.
+2. Tak, zmieni to wartości wykorzystywane później w hashowaniu, wpłynie to choćby na tabelę w
+3. Wziąłem dwa różne teksty, odległość Hamminga między nimi wyniosła połowę długości bitowej krótszego tekstu
+4. Tak 
